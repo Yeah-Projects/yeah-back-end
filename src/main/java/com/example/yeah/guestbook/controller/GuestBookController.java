@@ -16,7 +16,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 
-@Tag(name = "guestboom api", description = "방명록에 관한 api")
+@Tag(name = "guestbook api", description = "방명록에 관한 api")
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/guestbook")
